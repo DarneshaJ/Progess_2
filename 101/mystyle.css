@@ -1,0 +1,145 @@
+/*global*/
+body{
+    font-family: 'Krub', sans-serif;
+}
+
+
+p{
+    line-height: 2;
+    font-size:14px;
+   
+
+}
+
+
+h1,h2,h3{
+text-align:center;
+}
+
+h1{
+    font-size:35px;
+}
+
+h2{
+    font-size:28px;
+}
+
+h3{
+    font-size:20px;
+    color: deepskyblue;
+}
+/*header*/
+header{background-image: url(unicorn.jpg);
+    color:black;
+    height: 200px;
+    text-align: center;}
+.icon{
+    display:flex;
+    align-items:center; /* vertical align*/
+    justify-content: space-evenly;
+    width:100px;
+    height:100px;
+    background-color:deeppink;
+    border-radius:50%;
+
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+
+.icon i{
+    font-size:22px;
+    color:black;
+}
+
+
+main{
+    text-align: center;
+}
+
+main p{
+    width:800px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: justify;
+}
+
+/* menu */ 
+.menu {
+    background-color:#212121;
+    color:white;
+    padding: 30px;
+    text-align: center;
+}
+
+.menu a{
+    color:deepskyblue;
+    text-decoration: none;
+    font-size: 26px;
+    margin-right: 50px;
+}
+
+.menu a:hover{
+    color:lightpink;
+    /*font-size: 28px;
+    background-color: black;*/
+    
+}
+
+/* list */ 
+
+ul,ol{
+    list-style-image: url(icon.png);
+    background-color:deepskyblue;
+    padding: 20px;
+    color: black;
+    width: 40%;
+}
+li{
+      background-color: lightpink;
+      padding: 5px;
+      margin-left: 20px;
+      margin-bottom: 5px;
+}
+
+li:hover{
+    background-color: lightpink;
+    color:deepskyblue;
+}
+
+/*button style */
+
+.btn{
+    background-color: black;
+    color: lightpink;
+    font-size: 18px;
+    display: block;
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 8px;
+}
+
+/* presentaion card */
+
+.card{
+    background-color: lightpink;
+    color: black;
+    width: 40%;
+    border: 1px solid deepskyblue;
+    margin-top: 50px;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.card p{
+    font-size: 20px;
+
+}
+
+.main-contact{
+    height: 60vh;
+}
